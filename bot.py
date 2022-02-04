@@ -1,7 +1,7 @@
 import telebot
 import config
 
-bot = telebot.Telebot(config.token)
+bot=telebot.Telebot(config.token)
 
 @bot.message_handler(content_types=['text'])
 def lalala(message):
